@@ -94,7 +94,7 @@ class PostController extends Controller
         $this->validate($request, [
             'title' => 'required',
             'content' => 'required',
-            'image' =>  'required|image|mimes:jpeg,png,jpg,gif|max:2048',
+            'image' =>  'nullable|image|mimes:jpeg,png,jpg,gif|max:2048',
         ]);
 
         $post = Post::find($id);

@@ -29,7 +29,7 @@
                                                          alt="Post image" height="100px" width="auto">
                                                 @endif
                                             <input type="file" class="form-control-file" id="image"
-                                                   name="image" required="" multiple>
+                                                   name="image">
                                     </div>
                                 </div>
 
